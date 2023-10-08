@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <title>App Academy Student & Faculty Survey</title>
+    </head>
+    <body>
+        <form action="/form-handling-url" method="post">
+            <fieldset>
+                <legend>Add User</legend>
+
+                <div class="firstName">
+                    <label for="firstName">First Name:</label>
+                    <input type="text" id="firstName" name="first-name">
+                </div>
+
+                <div class="lastName">
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" id="lastName" name="last-name">
+                </div>
+
+                <div class="email">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                </div>
+
+                <div class="status">
+                    <label for="status">Status:</label>
+                    <select id="status" name="status">
+                        <option>Student</option>
+                        <option>Teacher</option>
+                        <option>Guest</option>
+                    </select>
+                </div>
+
+                <div class="fav">
+                    <p>Choose your favorite programming language:</p>
+
+                    <label for="html">HTML</label>
+                    <input type="radio" id="html" name="programming-language">
+
+                    <label for="css">CSS</label>
+                    <input type="radio" id="css" name="programming-language">
+
+                    <label for="javascript">JavaScript</label>
+                    <input type="radio" id="javascript" name="programming-language">
+                </div>
+
+                <div class="comments">
+                    <label for="comments">Comments:</label>
+                    <textarea id="comments" name="comments">
+                    </textarea>
+                </div>
+
+                <div class="currentdate">
+                    <label for="currentdate">Current Date:</label>
+                    <input type="date" id="currentdate" name="current-date">
+                </div>
+
+                <div class="checkbox">
+                    <label for="newsletter">Sign up for newsletter:</label>
+                    <input type="checkbox" id="newsletter" name="sign-up">
+
+                    <label for="terms">Agree to terms & conditions</label>
+                    <input type="checkbox" id="terms" name="agree-to-terms">
+                </div>
+
+                <div class="submit">
+                    <label for="submit">Submit</label>
+                    <input type="submit" id="submit" name="submit-button">
+                </div>
+
+            </fieldset>
+        </form>
+    </body>
+</html>
