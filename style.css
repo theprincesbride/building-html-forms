@@ -1,0 +1,153 @@
+body {
+    padding-top: 80px;
+    padding-bottom: 40px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+fieldset {
+    box-sizing: border-box;
+    height: 420px;
+    width: 600px;
+}
+
+legend {
+    border: 1px solid black;
+    position: absolute;
+    padding: 5px 20px 5px 5px;
+    top: 75px;
+    left: 320px;
+    background-color: white;
+}
+
+.form-content {
+    padding: 0px 150px 40px 150px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.firstName {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input[type=text] {
+    width: 200px;
+}
+input[type=email] {
+    width: 200px;
+}
+
+.lastName {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ .status-date {
+    box-sizing: border-box;
+    height: 39px;
+    width: 208px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ }
+
+
+ .status {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .currentDate {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .fav {
+    box-sizing: border-box;
+    width: 208px;
+    height: 39px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+ }
+ p {
+    font-size: 14px;
+    margin: 0px;
+    margin-bottom: 5px;
+ }
+
+ input[type=radio] {
+    height: 20px;
+    width: 20px;
+    margin: 0px;
+    margin-right: 2px;
+ }
+
+ .radio-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+ }
+
+ .fav-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .comments {
+    box-sizing: border-box;
+    width: 208px;
+    height: 81px;
+    display: flex;
+    flex-direction: column;
+ }
+
+ .comments label {
+    margin-left: 15px;
+ }
+
+ textarea {
+    height: 63px;
+ }
+
+ input[type=checkbox] {
+    height: 20px;
+    width: 20px;
+ }
+
+ .checkbox{
+    box-sizing: border-box;
+    height: 39px;
+    width: 188px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+ }
+input[type=submit] {
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
